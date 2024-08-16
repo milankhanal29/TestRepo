@@ -1,21 +1,19 @@
-
-                // Grouping and adding changes
-                int start = i;
-                while (i < totalLines && (i - start < maxLinesPerSlide)) {
-                    String currentChange = changes.get(i);
-                    String sign = currentChange.substring(0, 1);
-                    int currentLine = Integer.parseInt(currentChange.split(":")[1].trim().split(" ")[0]);
-
-                    // Group lines with the same sign
-                    int groupEnd = i;
-                    while (groupEnd + 1 < totalLines && changes.get(groupEnd + 1).startsWith(sign)) {
-                        groupEnd++;
-                    }
-
-                    String formattedChange = formatChanges(changes.subList(i, groupEnd + 1));
-                    XSLFTextParagraph diffContentParagraph = diffContent.addNewTextParagraph();
-                    XSLFTextRun diffContentRun = diffContentParagraph.addNewTextRun();
-                    diffContentRun.setText(formattedChange);
-                    if (sign.equals("+")) {
-                        diffContentRun.setFontColor(Color.GREEN);
-                    } else if (sign.equals("-")) {
+line 1
+line changes 2
+changes line 3
+change line 4
+change line 5
+change line 6
+change line 7
+change line 8
+change line 9
+change line 10
+change line 11
+change line 12
+change line 13
+change line 14
+change line 15
+print hello world
+change line 23
+change line 24
+change line 25
