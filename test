@@ -26,3 +26,11 @@ change line 14
 change line 15
 print hello world
 line 2
+@SpringBootApplication
+public class CodeChangePresentationGeneratorApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CodeChangePresentationGeneratorApplication.class, args);
+    }
+
+}
