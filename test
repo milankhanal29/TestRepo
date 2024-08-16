@@ -16,6 +16,12 @@ change line 15
 print hello world
 change line 23
 change line 24
+
+change line 15
+print hello world
+change line 23
+change line 24
+change line 25
 change line 25
 line 1
 line changes 2
@@ -31,8 +37,3 @@ change line 11
 change line 12
 change line 13
 change line 14
-change line 15
-print hello world
-change line 23
-change line 24
-change line 25
