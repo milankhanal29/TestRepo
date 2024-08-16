@@ -33,8 +33,3 @@ public class CodeChangePresentationGeneratorApplication {
         SpringApplication.run(CodeChangePresentationGeneratorApplication.class, args);
     }
 
-}    }
-     Hekllooah    @Override
-                  public void sendEmail(String toEmail, String subject, String body) {
-                      mailService.sendEmail(toEmail, subject, body);
-                  }
