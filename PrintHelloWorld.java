@@ -5,7 +5,6 @@ public class PrintHelloWorld {
     }
 
     public static void printMessage() {
-        System.out.println("Hello, World!");
         System.out.println("Hello, milan!");
     }
 }
