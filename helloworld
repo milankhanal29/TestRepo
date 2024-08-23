@@ -45,16 +45,5 @@ public class PresentationController {
     @Autowired
     private PresentationRepository presentationRepository;
 
-    @GetMapping("/download/{id}")
-    public ResponseEntity<byte[]> downloadPresentation(@PathVariable("id") String id) {
-        Presentation presentation = presentationRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Presentation not found"));
 
-        HttpHeaders headers = new HttpHeaders();
-        headers.
-
-        add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=presentation.pptx");
-
-        return new ResponseEntity<>(presentation.getData(), headers, HttpStatus.OK);
-    }
     }
