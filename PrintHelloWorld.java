@@ -6,7 +6,3 @@ public class PrintHelloWorld {
 
     public static void printMessage() {
         System.out.println("Hello, milan!");
-        System.out.println("Hello, world!");
-        System.out.println("Hello, mk!");
-    }
-}
