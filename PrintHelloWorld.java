@@ -9,3 +9,5 @@ public class PrintHelloWorld {
         System.out.println("Hello, milan!");
     }
 }
+        System.out.println("Hello, World!");
+        System.out.println("Hello, milan!");
