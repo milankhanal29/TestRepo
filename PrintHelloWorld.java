@@ -4,5 +4,9 @@ public class PrintHelloWorld {
         printMessage();
     }
     }
+    public static void main(String[] args) {
+        printMessage();
+    }
+    }
 
 
