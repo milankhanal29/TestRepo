@@ -22,4 +22,14 @@ public class PrintHelloWorld {
         System.out.println("Cipher Text: " + cipherText);
     }
 }
+    public static void main(String[] args) {
+        PrintHelloWorld railfence = new PrintHelloWorld();
+
+        String plainText = "UNIVERSITY";
+
+        String cipherText = railfence.encrypt(plainText.toUpperCase());
+
+        System.out.println("Cipher Text: " + cipherText);
+    }
+}
 
