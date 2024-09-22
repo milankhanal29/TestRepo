@@ -4,5 +4,4 @@ public class PrintHelloWorld {
         printMessage();
     }
 
-    public static void printMessage() {
-        System.out.println("Hello, milan!");
+
