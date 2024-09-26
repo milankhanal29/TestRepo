@@ -4,4 +4,3 @@ public class PrintHelloWorld {
         printMessage();
     }
 
-    public static void printMessage() {
